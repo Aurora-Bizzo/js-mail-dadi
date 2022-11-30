@@ -4,7 +4,7 @@ let message = prompt ('Inserisci la tua mail');
 
 let mail_utente = false;
 
-for (i = 0; i <= 100; i++) {
+for (i = 0; i < email.length; i++) {
 
     if (email[i] == message) {
         mail_utente = true;
