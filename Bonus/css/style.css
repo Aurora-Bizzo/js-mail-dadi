@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#login_result {
+    padding: 20px 5px;
+    font-size: 30px;
+}

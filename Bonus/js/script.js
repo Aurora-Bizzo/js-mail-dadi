@@ -19,10 +19,12 @@ button_send.addEventListener ('click', function(){
     }
     
     if (mail_utente) {
+        document.getElementById('login_result').innerHTML = "Accesso grarantito";
         console.log ('Accesso grarantito')
     }
     
     else {
+        document.getElementById('login_result').innerHTML = "Accesso negato";
         console.log ('Accesso negato')
     }
 
