@@ -2,11 +2,10 @@ const email = ['tizio@gmail.com', 'caio@gmail.com', 'sempronio@gmail.com', 'vane
 
 const button_send = document.getElementById ('send');
 
-let message = document.getElementById('mail').value;
-
-let mail_utente = false;
 
 button_send.addEventListener ('click', function(){
+    let message = document.getElementById('mail').value;
+    let mail_utente = false;
 
     for (i = 0; i < email.length; i++) {
 
@@ -27,5 +26,4 @@ button_send.addEventListener ('click', function(){
         document.getElementById('login_result').innerHTML = "Accesso negato";
         console.log ('Accesso negato')
     }
-
 })
